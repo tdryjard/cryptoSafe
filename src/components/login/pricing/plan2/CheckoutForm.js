@@ -62,7 +62,7 @@ const CheckoutForm = (props) => {
                 .then(result => {
                     // result.customer.id is used to map back to the customer object
                     // result.setupIntent.client_secret is used to create the payment method
-                    if (result) createPaymentMethod(elements.getElement(CardElement), result.customer.id, 'price_1IF0xMKleZ50Ivn66LVIGWWL')
+                    if (result) createPaymentMethod(elements.getElement(CardElement), result.customer.id, 'price_1IF6BlKleZ50Ivn608T0axTl')
                 });
         }
 
