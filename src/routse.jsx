@@ -4,7 +4,7 @@ import HomePage from './view/HomePage'
 
 const RouteList = [
   { exact: true, path: "/",    component: HomePage },
-  { exact: true, path: "/login",    component: Login }
+  { path: "/login",    component: Login }
 ]
 
 
