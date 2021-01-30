@@ -13,7 +13,7 @@ window.$ = window.jQuery = require('jquery')
 function App() {
     return (
       <Switch>
-        <Route path="/" component={Landing} />
+        <Route exact path="/" component={Landing} />
         <Route path="/login" component={Login} />
       </Switch>
     );
