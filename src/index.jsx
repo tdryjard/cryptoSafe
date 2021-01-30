@@ -25,9 +25,7 @@ const root = document.getElementById("root");
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter basename={Config.basename}>
-      <Suspense fallback={Spinner}>
         <App />
-      </Suspense>
     </BrowserRouter>
   </Provider>,
   root
