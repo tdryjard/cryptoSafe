@@ -19,14 +19,15 @@ import './assets/css/style.css';
 import './assets/css/responsive.css';
 import './'
 
+
 const root = document.getElementById("root");
+
+console.log(root)
 
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter basename={Config.basename}>
-      <Suspense fallback={Spinner}>
         <App />
-      </Suspense>
     </BrowserRouter>
   </Provider>,
   root
