@@ -12,8 +12,7 @@ import Currency from '../components/currency/currency';
 import Teams from '../components/team/team';
 import Blogs from '../components/blog/blog';
 
-class HomePage extends Component {
-  render() {
+const HomePage = () => {
     return (
       <Fragment>
         <div className="wd_scroll_wrap">
@@ -31,6 +30,5 @@ class HomePage extends Component {
       </Fragment>
     );
   }
-}
 
 export default HomePage;
