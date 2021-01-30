@@ -6,7 +6,6 @@ import store from './redux/';
 import * as serviceWorker from './serviceWorker';
 import Config from './configure';
 import Spinner from './components/spinner/Spinner';
-import App from './App/App'
 import "./assets/fonts/feather/css/feather.css";
 import "./assets/fonts/fontawesome/scss/font-awesome.scss";
 import "./assets/fonts/material-design-iconic-font/css/material-design-iconic-font.min.css";
@@ -19,6 +18,7 @@ import './assets/css/style.css';
 import './assets/css/responsive.css';
 import './'
 
+const App = lazy(() => import("./App/App"))
 
 const root = document.getElementById("root");
 
@@ -27,7 +27,9 @@ console.log(root)
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter basename={Config.basename}>
+      <Suspense fallback={Spinner}>
         <App />
+      </Suspense>
     </BrowserRouter>
   </Provider>,
   root
