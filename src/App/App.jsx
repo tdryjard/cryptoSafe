@@ -8,7 +8,6 @@ import Landing from '../view/HomePage'
 import fontAwesomeIcon from "../utility/icons/fontawesome";
 library.add(fontAwesomeIcon);
 
-window.$ = window.jQuery = require('jquery')
 
 function App() {
     return (
