@@ -3,7 +3,7 @@ import Demo from '../containers/templateConfig/mainLayout';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Login from '../components/login/Login'
-import Landing from '../view/HomePage'
+import HomePage from '../view/HomePage'
 
 import fontAwesomeIcon from "../utility/icons/fontawesome";
 library.add(fontAwesomeIcon);
@@ -12,7 +12,7 @@ library.add(fontAwesomeIcon);
 function App() {
     return (
       <Switch>
-        <Route exact path="/" component={Landing} />
+        <Route exact path="/" component={HomePage} />
         <Route path="/login" component={Login} />
       </Switch>
     );

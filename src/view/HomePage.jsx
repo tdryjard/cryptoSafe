@@ -14,7 +14,7 @@ import Blogs from '../components/blog/blog';
 
 const HomePage = () => {
     return (
-      <Fragment>
+      <>
         <div className="wd_scroll_wrap">
           <MainSlider />
           <Currency />
@@ -27,7 +27,7 @@ const HomePage = () => {
         <div className="wd_scroll_wrap">
           <Teams fill="#1f58b1" />
         </div>
-      </Fragment>
+      </>
     );
   }
 
