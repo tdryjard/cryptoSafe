@@ -25,7 +25,7 @@ console.log(root)
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename={Config.basename}>
+    <BrowserRouter basename='/React'>
       <Suspense fallback={Spinner}>
         <App />
       </Suspense>
