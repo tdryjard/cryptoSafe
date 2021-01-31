@@ -14,6 +14,7 @@
     "classnames": "^2.2.6",
     "echarts": "^4.2.1",
     "echarts-for-react": "^2.0.15-beta.0",
+    "express": "^4.17.1",
     "jquery": "^3.4.1",
     "moment": "^2.24.0",
     "normalize.css": "^8.0.1",
@@ -44,6 +45,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage":".",
   "browserslist": {
     "production": [
       ">0.2%",
