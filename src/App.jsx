@@ -1,5 +1,6 @@
 import React from "react";
 import Demo from './containers/templateConfig/mainLayout';
+import Routes from './containers/routes/mainRoutes'
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 import fontAwesomeIcon from "./utility/icons/fontawesome";

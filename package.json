@@ -35,6 +35,7 @@
     "redux-thunk": "^2.3.0",
     "video.js": "^7.6.0"
   },
+  "homepage" : "https://confident-fermi-8be9f4.netlify.app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
