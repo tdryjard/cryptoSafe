@@ -26,9 +26,7 @@ console.log(root)
 ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
-      <Suspense fallback={Spinner}>
         <App />
-      </Suspense>
     </BrowserRouter>
   </Provider>,
   root
