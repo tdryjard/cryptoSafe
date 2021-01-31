@@ -12,7 +12,7 @@ library.add(fontAwesomeIcon);
 function App() {
     return (
       <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Route path="/" component={HomePage} />
         <Route path="/login" component={Login} />
       </Switch>
     );
