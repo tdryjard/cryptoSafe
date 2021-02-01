@@ -49,7 +49,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://confident-fermi-8be9f4.netlify.app/",
+  "homepage": "https://confident-fermi-8be9f4.netlify.app",
   "browserslist": {
     "production": [
       ">0.2%",
