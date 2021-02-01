@@ -19,9 +19,6 @@ import './assets/css/style.css';
 import './assets/css/responsive.css';
 import './'
 
-const root = document.getElementById("root");
-
-console.log(root)
 
 ReactDOM.render(
   <Provider store={store}>
@@ -31,7 +28,7 @@ ReactDOM.render(
       </Suspense>
     </BrowserRouter>
   </Provider>,
-  root
+  document.getElementById('root')
 );
 
 
