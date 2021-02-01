@@ -22,7 +22,7 @@ import './'
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename='/'>
+    <BrowserRouter basename='https://confident-fermi-8be9f4.netlify.app'>
       <Suspense fallback={Spinner}>
         <App />
       </Suspense>
