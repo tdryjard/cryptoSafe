@@ -1,11 +1,10 @@
-import React from "react";
+import React, {Component} from "react";
 import { Tooltip } from "reactstrap";
 
 import PropTypes from "prop-types";
 
-class Icon extends React.Component {
+class Icon extends Component {
   constructor(props) {
-    super(props);
 
     this.toggle = this.toggle.bind(this);
     this.state = {

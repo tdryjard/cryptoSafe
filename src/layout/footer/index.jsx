@@ -3,13 +3,8 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 
 
-class Footer extends Component {
-  constructor(props) {
-    super(props)
-    const date = new Date()
-    this.year = date.getFullYear()
-  }
-  render() {
+const Footer = () => {
+  const date = new Date()
     return (
       <div className="wd_scroll_wrap">
         <footer className="foo-bot">
@@ -18,7 +13,7 @@ class Footer extends Component {
               <Row>
                 <Col lg={6} md={6} sm={12} className="col-xs-12">
                   <div className="copyright">
-                    <p>© {this.year - 1} - {this.year} <Link to="#"><span>CryptoSafe</span></Link> | All rights reserved.</p>
+                    <p>© {date.getFullYear() - 1} - {date.getFullYear()} <Link to="#"><span>CryptoSafe</span></Link> | All rights reserved.</p>
                   </div>
                 </Col>
                 <Col lg={6} md={6} sm={12} className="col-xs-12">
@@ -34,6 +29,5 @@ class Footer extends Component {
       </div>
     );
   }
-}
 
 export default Footer;
