@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import ReactWOW from 'react-wow';
 import MobileStoreButton from 'react-mobile-store-button';
 
 
-class Steps extends Component {
+export class Steps extends React.Component {
   render() {
     let contents = (
       <React.Fragment>
@@ -196,5 +196,3 @@ class Steps extends Component {
     );
   }
 }
-
-export default Steps;

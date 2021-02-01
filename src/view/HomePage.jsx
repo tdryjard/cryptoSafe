@@ -2,8 +2,7 @@ import React, { Component, Fragment } from 'react';
 import About from '../components/about/about';
 import Features from '../components/features/features';
 import Projects from '../components/projects/projects';
-import Steps from '../components/steps/steps';
-import Roadmap from '../components/roadMap/roadmap';
+import {Steps} from '../components/steps/steps';
 import MainSlider from '../components/mainSlider/mainSlider';
 import Currency from '../components/currency/currency';
 import Teams from '../components/team/team';
@@ -20,7 +19,6 @@ const HomePage = () => {
         <Features />
         <Projects />
         <Steps fill="#1f58b1" />
-        <Roadmap fill="#1f58b1" />
         <div className="wd_scroll_wrap">
           <Teams fill="#1f58b1" />
         </div>

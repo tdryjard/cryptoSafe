@@ -23,7 +23,7 @@ class Countdown extends Component {
     }, 1000);
   }
 
-  componentWillUnmount() {
+  componentWillUnmount = () => {
     if (this.interval) {
       clearInterval(this.interval);
     }

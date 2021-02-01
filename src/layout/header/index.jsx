@@ -33,7 +33,7 @@ class Header extends Component {
     this.state.scroll > this.state.top ?
       (document.body.style.paddingTop = `${this.state.height}px`) : (document.body.style.paddingTop = '0')
   }
-  componentWillUnmount() {
+  componentWillUnmount = () => {
     this.mount = false;
   }
   render() {
