@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import {url} from '../../../../api/url'
 import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
-import load from '../../../../assets/images/load.gif'
+import loadGif from '../../../../assets/images/load.gif'
 
 const CheckoutForm = (props) => {
 
@@ -154,7 +154,7 @@ const CheckoutForm = (props) => {
                     <input className="inputPricing" onChange={getMail} placeholder="Votre email" />
                     <input className="inputPricing" onChange={getSociety} placeholder="Votre nom et prénom" />
                 </>
-                : <img style={{ width: "50%" }} src={load} />}
+                : <img style={{ width: "50%" }} src={loadGif} />}
 
             <div className="inputPricingCard">
                 <CardElement options={CARD_OPTIONS} />
