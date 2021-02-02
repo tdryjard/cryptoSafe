@@ -48,7 +48,7 @@ class Features extends Component {
                     <div className="contents-r">
                       <h2>Une accessibilité exemplaire</h2>
                       <p>Se faire de l'argent avec CryptoSafe est un jeu d'enfant. <br />Il faut simplement checker chaque jour les prédictions publiées en page d'accueil puis de les répliquer sur une application de trading comme par exemple Etoro.</p>
-                      <Link to="#" className="btn1">Voir le shéma d'utilisation</Link>
+                      <a href="#steps" className="btn1">Voir le shéma d'utilisation</a>
                     </div>
                   </Col>
                   <Col className="pd-0" sm={6}>
@@ -60,7 +60,7 @@ class Features extends Component {
                     <div className="contents-l mr-b30">
                       <h2>Une accessibilité exemplaire</h2>
                       <p>Se faire de l'argent avec CryptoSafe est un jeu d'enfant. <br />Il faut simplement checker chaque jour les prédictions publiées en page d'accueil puis de les répliquer sur une application de trading comme par exemple Etoro.</p>
-                      <Link to="#" className="btn1">Voir le shéma d'utilisation</Link>
+                      <a href="#steps" className="btn1">Voir le shéma d'utilisation</a>
                     </div>
                   </Col>
                 </li>

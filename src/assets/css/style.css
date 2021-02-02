@@ -46,6 +46,18 @@ body {
   flex-direction: column;
 }
 
+.logoHead{
+  width: 300px;
+  height: auto;
+}
+
+@media screen and (max-width: 1000px){
+  .logoHead{
+    width: 250px;
+    height: auto;
+  }
+}
+
 .notConnectCrypto{
   width: 200px;
   height: 55px;

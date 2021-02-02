@@ -7,6 +7,7 @@ import MainSlider from '../components/mainSlider/mainSlider';
 import Currency from '../components/currency/currency';
 import Teams from '../components/team/team';
 import Blogs from '../components/blog/blog';
+import RoadMap from '../components/roadMap/roadmap'
 
 const HomePage = () => {
     return (
@@ -19,6 +20,7 @@ const HomePage = () => {
         <Features />
         <Projects />
         <Steps fill="#1f58b1" />
+        <RoadMap/>
         <div className="wd_scroll_wrap">
           <Teams fill="#1f58b1" />
         </div>

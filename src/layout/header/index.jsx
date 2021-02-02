@@ -86,7 +86,7 @@ class Header extends Component {
               <Col className="col-xs-6" sm={12} md={3} lg={3}>
                 <div className="logo-area">
                   <Link to={Config.defaultPath}>
-                    <img src={logo} alt="logo" />
+                    <img className="logoHead" src={logo} alt="logo" />
                   </Link>
                 </div>
               </Col>
