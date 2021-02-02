@@ -33,11 +33,12 @@ class Header extends Component {
     this.state.scroll > this.state.top ?
       (document.body.style.paddingTop = `${this.state.height}px`) : (document.body.style.paddingTop = '0')
   }
-  componentWillUnmount = () => {
+  componentWillUnmount() {
     this.mount = false;
   }
   render() {
-    $(document).ready(() => {
+    $(document).on('ready', function (e) {
+      alert('dal')
       $('.wd_single_index_menu ul li a[href^="#"]').bind('click', function (event) {
         event.preventDefault();
         event.stopPropagation();
