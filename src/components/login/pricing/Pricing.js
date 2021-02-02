@@ -8,7 +8,7 @@ import './Pricing.scss'
 
 const Pricing = (props) => {
 
-  const stripePromise = loadStripe(process.env.PUBLIC_KEY_STRIPE);
+  const stripePromise = loadStripe(`${process.env.PUBLIC_KEY_STRIPE}`);
 
 
  const CARD_OPTIONS = {

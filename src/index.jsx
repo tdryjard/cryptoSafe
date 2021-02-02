@@ -25,7 +25,7 @@ window.$ = window.jQuery = require('jquery')
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter basename='https://confident-fermi-8be9f4.netlify.app'>
+    <BrowserRouter basename='/'>
       <Suspense fallback={Spinner}>
         <App />
       </Suspense>

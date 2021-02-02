@@ -9,7 +9,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "@stripe/react-stripe-js": "^1.2.2",
-    "@stripe/stripe-js": "^1.11.0",
+    "@stripe/stripe-js": "^1.5.0",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
     "bootstrap": "^3.4.1",
@@ -49,7 +49,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://confident-fermi-8be9f4.netlify.app",
+  "homepage": ".",
   "browserslist": {
     "production": [
       ">0.2%",

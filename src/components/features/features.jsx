@@ -67,7 +67,7 @@ class Features extends Component {
                 <li>
                   <Col style={{marginTop: '40px'}} className="pd-0 hidden-xs" sm={6}>
                     <div className="contents-l mr-b30">
-                      <h2>Des prédictions calculés la veille</h2>
+                      <h2>Des prédictions calculées la veille</h2>
                       <p>Le traitement des données pour les prédictions est réalisé chaque nuit lorsque la plupart des échanges sont fermés. <br /> Puis ils sont publiés chaque jour à 6h (heure de Paris) en page d'accueil de notre site web.</p>
                     </div>
                   </Col>
@@ -78,7 +78,7 @@ class Features extends Component {
                   </Col>
                   <Col className="pd-0 visible-xs" sm={6}>
                     <div className="contents-l mr-b30">
-                      <h2>Des prédictions calculés la veille</h2>
+                      <h2>Des prédictions calculées la veille</h2>
                       <p>Le traitement des données pour les prédictions est réalisé chaque nuit lorsque la plupart des échanges sont fermés. <br /> Puis ils sont publiés chaque jour à 6h (heure de Paris) en page d'accueil de notre site web.</p>
                     </div>
                   </Col>

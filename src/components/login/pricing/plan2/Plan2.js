@@ -10,7 +10,7 @@ const Plan2 = (props) => {
     const [token, setToken] = useState()
     const [type, setType] = useState()
 
-    const stripePromise = loadStripe(process.env.PUBLIC_KEY_STRIPE);
+    const stripePromise = loadStripe(`${process.env.PUBLIC_KEY_STRIPE}`);
 
     useEffect(() => {
         if (localStorage.getItem('userId')) {

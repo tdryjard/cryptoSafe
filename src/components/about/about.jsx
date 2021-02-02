@@ -14,7 +14,7 @@ class About extends Component {
               À propos du projet
             </h2>
             <p>CryptoSafe a été créé initialement à but expérimental afin de savoir si une intelligence artificielle pouvait prédire avec assez de précision les cours du marché des crypto-monnaies.</p>
-            <p>La crypto-monnaie étant une nouveauté à l'échelle de notre société et sachant que toutes innovations créées une opportunité, il ne restait plus qu'à trouver comment l'exploiter.</p>
+            <p>La crypto-monnaie étant une nouveauté à l'échelle de notre société et sachant que toutes innovations crée une opportunité, il ne restait plus qu'à trouver comment l'exploiter.</p>
             <p>Il s'est avéré que la volatilité des cours ainsi que sa cohésion avec l'actualité ont rendu les prédictions possibles. <br/>Après 2 ans de deep learning (apprentissage de l'IA) en analysant l'actualité et 1 an d'adaptation, les prédictions de l'Intelligences Artificiel CryptoSafe étaient prêtes pour le grand public.</p>
             <p>Nous voilà en 2021 et déja plus de 15 000 personnes triplent leur investissement tous les 2 mois.</p>
             <div className="buttons">
