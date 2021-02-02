@@ -70,7 +70,7 @@ const EspacePerso = () => {
         <>
         {redirect && <Redirect to='/'/> }
         <h4 style={{marginBottom: '50px'}} className="titleLogin">Êtes vous sûr de vouloir vous désabonner ?</h4>
-        <h4 style={{fontWeight: '400', fontSize: '16px', marginBottom: '30px', marginTop: '0px'}} className="titleLogin">Votre compte actuel sera supprimé et vous n'aurez plus accés aux prévisions cryptomonaie<br/>
+        <h4 style={{fontWeight: '400', fontSize: '16px', marginBottom: '30px', marginTop: '0px'}} className="titleLogin">Votre compte actuel sera supprimé et vous n'aurez plus accès aux prévisions crypto-monnaies<br/>
         Il peut arriver que certaines semaines soient moins bonnes que d'autres, il n'y a que le temps qui vous sépare de la rentabilité.</h4>
         <div style={{display: 'flex'}}>
             <button style={{marginLeft: '15px', marginRight: '15px'}} onClick={() => cancelSubscription1()} className="btn1">Oui</button>
