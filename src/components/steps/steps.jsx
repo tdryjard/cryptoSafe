@@ -14,7 +14,7 @@ export class Steps extends React.Component {
             <Row>
               <Col lg={11} md={11} sm={12} className="col-xs-12">
                 <div className="steps-heading">
-                  <h2 style={{lineHeight: '140%'}}>4 étapes pour commencer à investir</h2>
+                  <h2 style={{lineHeight: '140%', maxWidth: '70%', marginLeft: '35px'}}>4 étapes pour commencer à investir</h2>
                   <div className="right-con">
                     <span>Scroll Down</span>
                     <Link to="#steps"><i className="fa fa-angle-down"></i></Link>

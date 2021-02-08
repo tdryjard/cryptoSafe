@@ -15,11 +15,11 @@ const HomePage = () => {
         <div className="wd_scroll_wrap">
           <MainSlider />
           <Currency />
+        <Steps fill="#1f58b1" />
         </div>
         <About fill="#1f58b1" />
         <Features />
         <Projects />
-        <Steps fill="#1f58b1" />
         <RoadMap/>
         <div className="wd_scroll_wrap">
           <Teams fill="#1f58b1" />
